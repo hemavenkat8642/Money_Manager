@@ -1,0 +1,62 @@
+/* Write your CSS here */
+
+.det-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.det-title {
+  color: #475569;
+  font-size: medium;
+}
+
+.amt-logo {
+  width: 65px;
+  margin-right: 25px;
+}
+
+.amount {
+  font-size: x-large;
+  font-weight: bold;
+  color: #475569;
+}
+
+.balance-cont {
+  height: 140px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding: 30px;
+  width: 30%;
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.income-cont {
+  height: 140px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding: 30px;
+  width: 30%;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.expenses-cont {
+  height: 140px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding: 30px;
+  width: 30%;
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
